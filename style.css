@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: beige;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+nav{
+    background-color: burlywood;
+    padding: 40px;
+    text-align: center;
+}
+
+nav a{
+    color: oldlace;
+    padding: 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+nav a:hover{
+    color: red;
+}
+
+.about {
+margin: 0px;
+padding: 15px;
+background-color: beige;
+}
+.about h1{
+    color: rgb(128, 57, 0);
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 0.15rem;
+    font-size: 2.2rem;
+    padding: 0;
+    margin:  0;
+}
+
+.about p{
+    padding: 15px ;
+    letter-spacing: 0.1rem;
+}
+.internship {
+    margin: 0px;
+    padding: 15px;
+    background-color: beige;
+    }
+.internship div{
+    margin: 15px;
+    padding: 0.5px;
+    background-color: antiquewhite;
+    font-size: 15px;
+
+}
+
+.internship div h2{
+    text-align: center;
+    background-color: palegoldenrod;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(128, 57, 0);
+    letter-spacing: 0.1rem;
+}
+
+.internship-content ul{
+    width: 50%;
+    font-size: medium;
+    letter-spacing: 0.1rem;
+}
+.internship-content img{
+    width: 40%;
+    height: 50%;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.internship p{
+    padding-left: 20px;
+    font-size: medium;
+    letter-spacing: 0.1rem;
+}
+button{
+    text-align: center;
+    padding: 15px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    width: 30%;
+    color: rgb(128, 57, 0);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    font-size: 18px;
+    background-color: palegoldenrod;
+}
+button:hover{
+    color: red;
+}
